@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
+$host = 'db';
 $db_name = 'redlock-web-2.0';
-$username = 'user';
-$password = 'user';
+$username = 'root';
+$password = 'root';
 
 $conn = new PDO("mysql:host=$host;dbname=$db_name", $username, $password);
 
